@@ -1,10 +1,10 @@
-# 🎟️ DataStraw Support CRM System
+# DataStraw Support CRM System
 
 A full-stack, production-ready **Customer Support CRM System** built for the Datastraw hiring assignment. It handles ticket creations, lists support incidents with live search and multi-status filtering, tracks internal communication timelines, and supports quick updates in an elegant, glassmorphic dark-theme layout.
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 * **Create Support Tickets**: A streamlined client intake form with validation checks.
 * **List & Manage Incidents**: A modern datatable highlighting Ticket ID, Customer details, Issue, and Created Date.
@@ -16,7 +16,7 @@ A full-stack, production-ready **Customer Support CRM System** built for the Dat
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 1. **Backend Service**: Node.js & Express (written as modern ES6 modules).
 2. **Database Engine**: Relational SQLite (using the asynchronous wrapper `sqlite` along with the standard `sqlite3` driver).
@@ -27,7 +27,7 @@ A full-stack, production-ready **Customer Support CRM System** built for the Dat
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 datastraw_Assignment/
@@ -59,7 +59,7 @@ datastraw_Assignment/
 
 ---
 
-## ⚡ Setup & Run Instructions
+##  Setup & Run Instructions
 
 Ensure you have **Node.js (v18+)** and **NPM** installed.
 
@@ -97,7 +97,7 @@ The app will compile and start listening. If port `3010` is occupied, it will au
 
 ---
 
-## 📡 REST API Documentation
+##  REST API Documentation
 
 ### `POST /api/tickets`
 Creates a new support ticket in the database.
@@ -177,7 +177,7 @@ Updates a ticket's status and/or inserts a new internal activity comment in a si
 
 ---
 
-## ☁️ Deployment Guidelines
+##  Deployment Guidelines
 
 Since the backend is a standard Express + SQLite app that compiles and serves the React client bundle automatically, deployment is extremely straightforward!
 
